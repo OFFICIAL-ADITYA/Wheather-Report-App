@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // You'll need to get a free API key from https://openweathermap.org/api
-const API_KEY = '452a48e84185d48c8045f140aeb91463'; 
+const API_KEY = 'YOUR_OPEN-WHEATHER-MAP_API_KEY'; 
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const weatherService = axios.create({
